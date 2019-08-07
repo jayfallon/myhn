@@ -30,17 +30,59 @@ exports[`App has a valid snapshot 1`] = `
   <hr />
   <div
     className="list__display"
-  />
+  >
+    <nav
+      className="sc-bdVaJa kzUpol"
+    >
+      <ul>
+        <li>
+          <button
+            className="button-inline"
+            onClick={[Function]}
+            type="button"
+          >
+            Title
+          </button>
+        </li>
+        <li>
+          <button
+            className="button-inline"
+            onClick={[Function]}
+            type="button"
+          >
+            Author
+          </button>
+        </li>
+        <li>
+          <button
+            className="button-inline"
+            onClick={[Function]}
+            type="button"
+          >
+            Comments
+          </button>
+        </li>
+        <li>
+          <button
+            className="button-inline"
+            onClick={[Function]}
+            type="button"
+          >
+            Points
+          </button>
+        </li>
+        <li>
+          Archive
+        </li>
+      </ul>
+    </nav>
+  </div>
   <div
     className="interactions"
   >
-    <button
-      className=""
-      onClick={[Function]}
-      type="button"
-    >
-      More
-    </button>
+    <div>
+      Loading...
+    </div>
   </div>
 </div>
 `;
@@ -76,6 +118,51 @@ exports[`Table has a valid snapshot 1`] = `
 <div
   className="list__display"
 >
+  <nav
+    className="sc-bdVaJa kzUpol"
+  >
+    <ul>
+      <li>
+        <button
+          className="button-inline"
+          onClick={[Function]}
+          type="button"
+        >
+          Title
+        </button>
+      </li>
+      <li>
+        <button
+          className="button-inline"
+          onClick={[Function]}
+          type="button"
+        >
+          Author
+        </button>
+      </li>
+      <li>
+        <button
+          className="button-inline"
+          onClick={[Function]}
+          type="button"
+        >
+          Comments
+        </button>
+      </li>
+      <li>
+        <button
+          className="button-inline"
+          onClick={[Function]}
+          type="button"
+        >
+          Points
+        </button>
+      </li>
+      <li>
+        Archive
+      </li>
+    </ul>
+  </nav>
   <ul
     className="table-row"
   >
