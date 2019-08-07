@@ -7,7 +7,7 @@ class Table extends Component {
     return (
       <div className="list__display">
         {list.map(item => (
-          <ul key={item.objectID}>
+          <ul key={item.objectID} className="table-row">
             <li>
               <a href={item.url}>{item.title}</a>
             </li>
