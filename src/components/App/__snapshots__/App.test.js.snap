@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has a valid snapshot 1`] = `
+<div
+  className="App"
+>
+  <h2>
+    Hello, World!
+  </h2>
+  <hr />
+  <div
+    className="form__wrapper"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      Search
+      <input
+        onChange={[Function]}
+        type="text"
+        value="hooks"
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+  </div>
+  <hr />
+  <div
+    className="list__display"
+  />
+  <div
+    className="interactions"
+  >
+    <button
+      className=""
+      onClick={[Function]}
+      type="button"
+    >
+      More
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Button has a valid snapshot 1`] = `
+<button
+  className=""
+  type="button"
+>
+  Give Me More
+</button>
+`;
+
+exports[`Search has valid snapshot 1`] = `
+<div
+  className="form__wrapper"
+>
+  <form>
+    Search
+    <input
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Table has a valid snapshot 1`] = `
+<div
+  className="list__display"
+>
+  <ul
+    className="table-row"
+  >
+    <li>
+      <a>
+        1
+      </a>
+    </li>
+    <li>
+      1
+    </li>
+    <li>
+      1
+    </li>
+    <li>
+      2
+    </li>
+    <li>
+      <button
+        className="1"
+        onClick={[Function]}
+        type="button"
+      >
+        Dismiss
+      </button>
+    </li>
+  </ul>
+  <ul
+    className="table-row"
+  >
+    <li>
+      <a>
+        2
+      </a>
+    </li>
+    <li>
+      2
+    </li>
+    <li>
+      1
+    </li>
+    <li>
+      2
+    </li>
+    <li>
+      <button
+        className="2"
+        onClick={[Function]}
+        type="button"
+      >
+        Dismiss
+      </button>
+    </li>
+  </ul>
+</div>
+`;
