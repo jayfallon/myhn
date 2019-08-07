@@ -1,4 +1,4 @@
 {
   "name": "hn-test",
-  "alias": "myhn.jayfallon.net"
+  "alias": ["myhn.jayfallon.net", "myhn.jayfallon.dev"]
 }
